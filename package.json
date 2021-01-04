@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "hexlet frontend project level 1",
   "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/7lexik0n/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/7lexik0n/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/7lexik0n/frontend-project-lvl1#readme",
+  "dependencies": {}
 }
